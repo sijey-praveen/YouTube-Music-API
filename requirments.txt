@@ -1,0 +1,3 @@
+flask
+bs4
+flask_cors
