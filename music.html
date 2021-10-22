@@ -3,7 +3,7 @@
 <script>
 var query = new URLSearchParams(window.location.search).get("q")
 
-$.get(`api.sijey.repl.co/ytm-music?q=${query}`, 
+$.get(`https://api.sijey.repl.co/ytm-music?q=${query}`, 
     function(data) {
         document.write(data)
     }
