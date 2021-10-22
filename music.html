@@ -1,0 +1,11 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+var query = new URLSearchParams(window.location.search).get("q")
+
+$.get(`api.sijey.repl.co/ytm-music?q=${query}`, 
+    function(data) {
+        document.write(data)
+    }
+)
+</script>
