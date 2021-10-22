@@ -1,3 +1,6 @@
+from os import system
+system("pip install -r requirments.txt")
+
 from requests import get
 from warnings import filterwarnings
 from flask import Flask, request
@@ -49,4 +52,4 @@ def ytm_music():
             }
     }
 
-app.run(host="0.0.0.0", debug=False)
+app.run(host="0.0.0.0", debug=True)
